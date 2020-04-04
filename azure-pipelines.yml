@@ -13,7 +13,7 @@ steps:
     inputs:
       command: custom
       verbose: true
-      customcommand: 'install --save-dev jest'
+      customcommand: 'install --production'
   - script: 'npm test'
     displayName: 'Run unit tests'
     continueOnError: true
