@@ -9,6 +9,9 @@ pool:
 trigger:
   - master
 steps:
+  - task: Npm@0
+    inputs:
+      command: 'install --jest'
   - task: Npm@1
     inputs:
       command: custom
