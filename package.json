@@ -6,7 +6,7 @@
     "start": "node ./server.js --production",
     "local:build": "webpack --env.NODE_ENV=development --mode=development",
     "build": "exit 0",
-    "unit-test": "jest",
+    "unit-test": "./node_modules/.bin/jest",
     "int-test": "./node_modules/.bin/jest --testRegex=.*\\.ispec\\.js$",
     "test": "./node_modules/.bin/jest --testRegex=.*\\.i?spec\\.js$",
     "all-test:watch": "./node_modules/.bin/jest --watch --testRegex=.*\\.i?spec\\.js$"
