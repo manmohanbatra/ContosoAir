@@ -14,7 +14,7 @@ steps:
       command: custom
       verbose: false
       customcommand: 'install --production'
-  - script: 'npm test -- --updateSnapshot'
+  - script: 'npm test'
     displayName: 'Run unit tests'
     continueOnError: true
   - task: PublishTestResults@2
