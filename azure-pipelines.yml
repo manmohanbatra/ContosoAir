@@ -11,7 +11,8 @@ trigger:
 steps:
   - task: Npm@0
     inputs:
-      command: 'install --jest'
+      command: 'install'
+      arguments: 'jest'
   - task: Npm@1
     inputs:
       command: custom
