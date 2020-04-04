@@ -1,6 +1,6 @@
+[![Build Status](https://dev.azure.com/shauryabatra2000/ContosoAir/_apis/build/status/manmohanbatra.ContosoAir?branchName=master)](https://dev.azure.com/shauryabatra2000/ContosoAir/_build/latest?definitionId=24&branchName=master)
+
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
-
-
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
